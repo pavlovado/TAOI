@@ -1,0 +1,43 @@
+# 🚀 Технологии аналитической обработки данных
+
+![Data Analysis](https://img.shields.io/badge/Data-Analysis-blue) ![Apriori](https://img.shields.io/badge/Algorithm-Apriori-green) ![Association Rules](https://img.shields.io/badge/Rules-Association-orange)
+
+В репозитории представлены реализации алгоритмов поиска частых наборов и ассоциативных правил с визуализацией результатов.
+
+## 📂 Содержание репозитория
+
+| Файл | Описание | Colab |
+|------|----------|-------|
+| [frequent_sets.ipynb](frequent_sets.ipynb) | Поиск частых наборов алгоритмом Apriori | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1bd60JuwJQZRXaCZx5e_VJv-7D5bqcrbR?usp=sharing) |
+| [associative_rules.ipynb](associative_rules.ipynb) | Поиск ассоциативных правил | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/12NPT0tDZg_7ssWbmmF0khwTfKThGRqRf?usp=sharing) |
+
+## 📊 Частые наборы (frequent_sets.ipynb)
+
+### Условие задачи
+Разработка программы для поиска частых наборов объектов с использованием алгоритма Apriori.
+
+**Параметры:**
+- Входные данные: набор данных `baskets.csv`
+- Порог поддержки (варьируется: 1%, 3%, 5%, 10%, 15%)
+- Способ упорядочивания результатов
+
+**Визуализация:**
+1. Сравнение быстродействия при изменении порога поддержки
+2. Количество частых наборов объектов разной длины
+
+## 🔗 Ассоциативные правила (associative_rules.ipynb)
+
+### Условие задачи
+Доработка программы для поиска ассоциативных правил.
+
+**Параметры:**
+- Фиксированный порог поддержки (10%)
+- Варьируемый порог достоверности (70% до 95% с шагом 5%)
+
+**Визуализация:**
+1. Сравнение быстродействия поиска правил
+2. Общее количество найденных правил
+
+**Анализ:**
+- Отбор правил с суммарным количеством объектов ≤ 7
+- Интерпретация содержательного смысла правил
