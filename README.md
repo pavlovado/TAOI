@@ -1,7 +1,5 @@
 # 🚀 Технологии аналитической обработки данных
 
-![Data Analysis](https://img.shields.io/badge/Data-Analysis-blue) ![Apriori](https://img.shields.io/badge/Algorithm-Apriori-green) ![Association Rules](https://img.shields.io/badge/Rules-Association-orange)
-
 В репозитории представлены реализации алгоритмов поиска частых наборов и ассоциативных правил с визуализацией результатов.
 
 ## 📂 Содержание репозитория
